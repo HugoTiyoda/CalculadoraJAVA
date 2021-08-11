@@ -9,6 +9,7 @@ public class Botoes extends JButton {
     public Botoes(String funcao, Color cor) {
         setText(funcao);
         setOpaque(true);
+        setFocusable(false);
         setBackground(cor);
         setFont(new Font("Arial",Font.PLAIN,18));
         setForeground(Color.white);
